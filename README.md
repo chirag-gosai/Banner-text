@@ -3,7 +3,7 @@
 ## 📖 Table of Contents
 - [❓ Description](#-Description-)
 - [✨ Prerequisite](#-Prerequisite-)
-- [💾 Installation](#-Installation-)
+- [💾 Installation](#-installation-)
 - [⚙️ Configuration](#-Configuration-)
    - [`CUSTOM_CONFIG`](#-CUSTOM_CONFIG-)
 - [🧰 Contributing](#️-Contributing-)
