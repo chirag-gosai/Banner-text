@@ -49,6 +49,46 @@ it is used for enabling support of custom configuration. it supports binary valu
 ### CUSTOM_CONFIG_PATH
 it is used to specify the path of custom configuration that is going to be loaded to the script. it's not required if **'CUSTOM_CONFIG'** is set to '0' but, it is must if you set **'CUSTOM_CONFIG'** to '1'. if file not found or not existed then default configuration file will be loaded and error mail will send to administrator.
 
+### load_check
+load check is a function that checks the load of Linux system followed by 1,5 and 15 minutes ago. this function can be enabled or disable using Boolean value. default value of load_check is 'load_check=true'.
+
+### disk_usage
+disk usage is a function that checks the current disk usage of Linux system. this function can be enabled or disable using Boolean value. default value of load_check is 'load_check=true'.
+
+### recipient
+is mail address of receiver. default value is recipient="alticon-alert@alticon.in".
+
+### BASE_FILE_PATH
+is directory of where the script is stored. default value is BASE_FILE_PATH="/root/miscellaneous".
+
+### BASE_LOG_PATH
+is directory for logs. default value is BASE_LOG_PATH="/var/log/alticon/miscellaneous".
+
+### Use only for load_check function
+
+#### LOAD_THRESHOLD
+is used to store value if load average cross that limit then it'll trigger email. default value is LOAD_THRESHOLD="50".
+
+#### JSTACK_THRESHOLD
+is used to trigger JSTACK to Java running servers and it'll send JSTACK in email. default value is JSTACK_THRESHOLD="100".
+
+#### JSTACK_CALL_SCRIPT
+is used to store the location of Get Jstack script which trigger if load average is over JSTACK_THRESHOLD. default value is JSTACK_CALL_SCRIPT="/root/miscellaneous/connector.sh".
+
+### Use only for disk_usage function
+
+#### WARNING_PERCENTAGE
+is used to store the value in percentage. if disk usage of cross that limit then it'll trigger email. default value is WARNING_PERCENTAGE="70".
+
+#### MAX_USAGE_PERCENTAGE
+is used to trigger mail to **recipient** if disk usage percentage is over then **MAX_USAGE_PERCENTAGE**. default value is MAX_USAGE_PERCENTAGE="90".
+
+```bash
+NOTE: A Default configuration is provided with script do not remove it else script will not function.
+      if you want to make any changes in default.conf make copy of that file and use it as custom 
+      config by setting 'CUSTOM_CONFIG' to '1' and setting path of custom config into
+      'CUSTOM_CONFIG_PATH' it is recomanded method.
+```
 
 ## AAA [🔝](#-table-of-contents)
 
