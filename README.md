@@ -13,7 +13,7 @@
 
 Bash scripting is a powerful way to automate tasks on a Linux server and can be used to save time and efficiency when managing a server. One task that is useful to script is to check the load and disk usage on a server. This can be done in a bash script for Linux servers. The script will first check the server's load and collect the output of the [uptime](https://man7.org/linux/man-pages/man1/uptime.1.html) command. This command displays the load for the last 1, 5, and 15 minutes. From the output, the script can compare this against a set threshold, and if it exceeds the threshold, then an alert is sent to the administrator. The script will then run the [df](https://man7.org/linux/man-pages/man1/df.1.html) command to check the disk usage. This command displays the size, used, available and percentage of usage for each of the mounted file systems. The script can then compare currently used space with the threshold percentage, if it exceeds then the alert will send to administrator. Finally, the script can also be used to report on the total disk usage of the server. This can provide a quick view of the trends and if action needs to be taken to free up disk space. All of this can be done by a single bash script for a Linux server.
 
-## ✨ Prerequisite
+## ✨ Prerequisite [🔝](#-table-of-contents)
 - [mutt](https://linux.die.net/man/1/mutt) installed and configured in system (guide [here](https://www.fosstechnix.com/install-and-configure-mutt-on-ubuntu-centos/)).
 - linux server with Internet connection.
 - script file with default.config.
