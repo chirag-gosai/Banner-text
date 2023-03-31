@@ -40,6 +40,7 @@ bash /path/to/script/run.sh
 # or
 ./path/to/script/run.sh
 ```
+## demo
 ## ⚙️ Configuration [🔝](#-table-of-contents)
 
 ### CUSTOM_CONFIG
