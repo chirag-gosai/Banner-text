@@ -5,6 +5,7 @@
 - [✨ Prerequisite](#-Prerequisite-)
 - [💾 Installation](#-installation-)
 - [⚙️ Configuration](#-Configuration-)
+- - [💾 Installation2](#-installation2-)
 - [🧰 Contributing](#️-Contributing-)
 - [⚠️ License](#-License-)
 
@@ -40,7 +41,8 @@ bash /path/to/script/run.sh
 # or
 ./path/to/script/run.sh
 ```
-## demo
+## 💾 Installation2 [🔝](#-table-of-contents)
+
 ## ⚙️ Configuration [🔝](#-table-of-contents)
 
 ### CUSTOM_CONFIG
