@@ -3,9 +3,9 @@
 ## 📖 Table of Contents
 - [❓ Description](#-Description-)
 - [✨ Prerequisite](#-Prerequisite-)
-- [💾 Installation](#-installation-)
+- [💾 Installation](#-Installation-)
 - [💾 Configuration](#-Configuration-)
-- [🧰 Contributing](#️-Contributing-)
+- [Contributing](#️-Contributing-)
 - [⚠️ License](#-License-)
 
 ## ❓ Description [🔝](#-table-of-contents)
@@ -89,13 +89,13 @@ NOTE: A Default configuration is provided with script do not remove it else scri
       'CUSTOM_CONFIG_PATH' it is recomanded method.
 ```
 
-## 🧰 Contributing [🔝](#-table-of-contents)
+## Contributing [🔝](#-table-of-contents)
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## ⚠️ License [🔝](#-table-of-contents)
+## License [🔝](#-table-of-contents)
 
 Thank you for your interest in our script. This license agreement (the "Agreement") governs the use of the script (the "Product") provided by Alticon PVT LTD. ("Company") to the individual or entity ("Licensee") who has acquired the Private License.
 
