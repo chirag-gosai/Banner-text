@@ -5,8 +5,8 @@
 - [✨ Prerequisite](#-Prerequisite-)
 - [💾 Installation](#-Installation-)
 - [💾 Configuration](#-Configuration-)
-- [Contributing](#️-Contributing-)
-- [⚠️ License](#-License-)
+- [💾 Contributing](#-Contributing-)
+- [💾 License](#-License-)
 
 ## ❓ Description [🔝](#-table-of-contents)
 
