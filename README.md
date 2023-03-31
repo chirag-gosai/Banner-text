@@ -5,7 +5,7 @@
 - [✨ Prerequisite](#-Prerequisite-)
 - [💾 Installation](#-installation-)
 - [💾 AAA ](#-aaa-)
-- [💾 Installation2](#-installation2-)
+- [💾 Configuration](#-Configuration-)
 - [🧰 Contributing](#️-Contributing-)
 - [⚠️ License](#-License-)
 
@@ -41,7 +41,7 @@ bash /path/to/script/run.sh
 # or
 ./path/to/script/run.sh
 ```
-## 💾 Installation2 [🔝](#-table-of-contents)
+## 💾 Configuration [🔝](#-table-of-contents)
 ### CUSTOM_CONFIG
 it is used for enabling support of custom configuration. it supports binary values ('0' or '1'). where '0' is for disabling and '1' is for enabling this function. default value is '0'. if you set it '1' then **'CUSTOM_CONFIG_PATH'** is must provided.
 
