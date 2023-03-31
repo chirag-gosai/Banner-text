@@ -4,7 +4,7 @@
 - [❓ Description](#-Description-)
 - [✨ Prerequisite](#-Prerequisite-)
 - [💾 Installation](#-installation-)
-- [Configuration](#-configuration-)
+- [💾 Configuration](#-configuration-)
 - [💾 Installation2](#-installation2-)
 - [🧰 Contributing](#️-Contributing-)
 - [⚠️ License](#-License-)
