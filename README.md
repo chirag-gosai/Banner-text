@@ -5,7 +5,6 @@
 - [✨ Prerequisite](#-Prerequisite-)
 - [💾 Installation](#-installation-)
 - [⚙️ Configuration](#-Configuration-)
-- [`CUSTOM_CONFIG`](#CUSTOM_CONFIG-)
 - [🧰 Contributing](#️-Contributing-)
 - [⚠️ License](#-License-)
 
