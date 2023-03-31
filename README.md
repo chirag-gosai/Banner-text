@@ -18,7 +18,7 @@ Bash scripting is a powerful way to automate tasks on a Linux server and can be 
 - linux server with Internet connection.
 - script file with default.config.
 
-## 💾 Installation
+## 💾 Installation [🔝](#-table-of-contents)
 
 To get auto alerts add this script in [crontab](https://man7.org/linux/man-pages/man5/crontab.5.html). (Below cron runs at every minute.)
 
@@ -42,7 +42,7 @@ bash /path/to/script/run.sh
 ./path/to/script/run.sh
 ```
 
-## ⚙️ Configuration
+## ⚙️ Configuration [🔝](#-table-of-contents)
 
 ### CUSTOM_CONFIG
 it is used for enabling support of custom configuration. it supports binary values ('0' or '1'). where '0' is for disabling and '1' is for enabling this function. default value is '0'. if you set it '1' then **'CUSTOM_CONFIG_PATH'** is must provided.
@@ -91,13 +91,13 @@ NOTE: A Default configuration is provided with script do not remove it else scri
       'CUSTOM_CONFIG_PATH' it is recomanded method.
 ```
  
-## 🧰 Contributing
+## 🧰 Contributing [🔝](#-table-of-contents)
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## ⚠️ License
+## ⚠️ License [🔝](#-table-of-contents)
 
 Thank you for your interest in our script. This license agreement (the "Agreement") governs the use of the script (the "Product") provided by Alticon PVT LTD. ("Company") to the individual or entity ("Licensee") who has acquired the Private License.
 
